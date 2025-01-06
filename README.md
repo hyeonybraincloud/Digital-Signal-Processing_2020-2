@@ -11,6 +11,8 @@ Quantization 대상에 따라 다음과 같이 나눌 수 있다.
 - Uniform: Reconstruction levels이 균일하게 분포
 - Non-uniform: Reconstruction levels이 비균일하게 분포
 
+![image](https://github.com/user-attachments/assets/df9c2015-577e-42e9-89b0-3afc6c408f14)
+
 ### 1.1 Scalar Uniform Quantization
 ![image](https://github.com/user-attachments/assets/c8ae4c3f-885c-4ee0-87d9-f6d4093559af)
 
