@@ -1,4 +1,4 @@
-# Digital Signal Processing
+# 디지털신호처리(Digital Signal Processing - C++)
 ## 1. Quantization
 **Quantization**이란 여러 개의 samples을 하나의 대표값으로 mapping하는 과정이다. 그래서 원본 sample 값에 비해 손실이 생길 수밖에 없다. 
 ![image](https://github.com/user-attachments/assets/cd32d449-ab9b-422e-9de7-74a4dbd4d953)
