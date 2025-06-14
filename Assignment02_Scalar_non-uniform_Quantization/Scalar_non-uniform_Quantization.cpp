@@ -81,6 +81,14 @@ void Image::Quantization(FILE* file)
 
 			if (count > 0)
 				reconstruction_Levels[i] = sum / count;
+			else {
+				if (i == 0)
+					reconstruction_Levels[i] = reconstruction_Levels[i + 1];
+				else if (i == numLevels - 1)
+					reconstruction_Levels[i] = reconstruction_Levels[i - 1];
+				else
+					reconstruction_Levels[i] = (reconstruction_Levels[i - 1] + reconstruction_Levels[i + 1]) / 2.0;
+			}
 		}
 
 		// Update decision Levels (midpoints)
