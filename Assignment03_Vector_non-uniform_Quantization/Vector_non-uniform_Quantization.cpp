@@ -53,7 +53,7 @@ void Image::Quantization(FILE* file)
     vector<int> clusterAssignments(m_iSize[0] / vectorSize, -1);
 
     // Randomly initialize centroids
-    std::srand(std::time(0));
+    std::srand(std::time(1234));
     for (int i = 0; i < numClusters; i++) {
         for (int j = 0; j < vectorSize; j++) {
             centroids[i][j] = std::rand() % 1024; // Assuming 10-bit input
